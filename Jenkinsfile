@@ -1,5 +1,3 @@
-
-
 pipeline {
     agent none
     stages {
@@ -8,6 +6,7 @@ pipeline {
       steps {
         sh 'python test.py'
       }
+    }
     }
 }
 
